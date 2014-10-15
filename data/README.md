@@ -1,3 +1,6 @@
+![Think Big](http://thinkbig.teradata.com/wp-content/themes/thinkbig/images/header/Logo128.png "Think Big logo")
+![Ancestry.com](http://c.mfcreative.com/mars/landing/lohp/2014/smp/us-lohp-simplehdr-logo.png "Ancestry.com logo")
+
 # Think Big Challenge 2014
 
 ## Notes about the data
@@ -8,7 +11,7 @@ The basic format of the files is as follows. All data are serialized in JSON for
 
 * **Persons.** An array of persons in the tree.
 
-	* **Global ID. ('gid')** Represents the ID this Person node. Consists of three parts: `person id:????:tree id`.
+	* **Global ID. ('gid')** Represents the ID this Person node. Consists of three parts: `person id:source id:tree id`. (Source 1033 represents member-supplied data.)
 
 	* **Names.** The names that represent the person -- can be multiple. (Note: surnames have been hashed for this contest -- see **Anonymization** below).
 		* ‘g’ – given

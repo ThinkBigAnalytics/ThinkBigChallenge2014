@@ -1,5 +1,5 @@
-![Think Big](/tmp.png "Think Big logo")
-![Ancestry.com](/tmp.png "Ancestry.com logo")
+![Think Big](http://thinkbig.teradata.com/wp-content/themes/thinkbig/images/header/Logo128.png "Think Big logo")
+![Ancestry.com](http://c.mfcreative.com/mars/landing/lohp/2014/smp/us-lohp-simplehdr-logo.png "Ancestry.com logo")
 
 # Think Big Challenge 2014
 
