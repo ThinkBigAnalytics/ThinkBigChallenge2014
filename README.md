@@ -1,16 +1,15 @@
-![Think Big](http://thinkbig.teradata.com/wp-content/themes/thinkbig/images/header/Logo128.png "Think Big logo")
-![Ancestry.com](http://c.mfcreative.com/mars/landing/lohp/2014/smp/us-lohp-simplehdr-logo.png "Ancestry.com logo")
-
+<img align="right" src="http://c.mfcreative.com/mars/landing/lohp/2014/smp/us-lohp-simplehdr-logo.png" alt="Ancestry.com"/>
+<br/>
+<img align="right" src="http://thinkbig.teradata.com/wp-content/themes/thinkbig/images/header/Logo128.png" alt="Think Big"/>
 # Think Big Challenge 2014
 
-Think Big and Ancestry.com have partnered to present this challenge for Strata NY 2014.
+Think Big and Ancestry.com have partnered to present this Big Data challenge for Strata NY 2014.
 
 *contest one-liner here*
 
 *need Ancestry.com intro text here*
 
 *think big intro here*
-
 
 
 ## Introduction
@@ -20,16 +19,17 @@ The data for this challenge is drawn from genealogy data entered by Ancestry.com
 
 ## The challenge
 
-Implementing (or even designing) a complete solution to match and de-duplicate this data is well beyond the scope of any single contest lasting for just a few days (or weeks!). However, as with any "big" problem, there are a number of interesting steps along the way and the judges are as interested in your approach, reasoning, and presentation as in any particular result. (This contest is **not** a leaderboard-driven machine learning contest.)
+Implementing (or even designing) a complete solution to match and de-duplicate these trees is well beyond the scope of any single contest lasting for just a few days (or weeks!). However, as with any "big" problem, you can make progress on a number of interesting steps along the way. The judges are interested in your approach--including which aspects you choose to tackle.
 
-Multiple prizes will be awarded, and we welcome submissions regardless of focus: Engineering, Data Science, System Architecture, etc. are all important and interesting to us. For architects, for example, we are especially interested in which tools and components you select (and why), how you combine them. We have no expectations or requirements to use specific platforms, languages, packages, etc.
+Multiple prizes will be awarded, and we welcome submissions regardless of focus: Engineering, Data Science, Architecture, etc. As with any real world problem, each discipline is important and of interest to us. Engineers may Architects, for example, may choose to focus on technology selection and solution design whereas Data Scientists may dive into 
+
+We have no expectations or requirements to use specific platforms, languages, packages, etc. Impress us.
 
 Here are some suggestions to help you get started:
 
 * **Ingestion Processing.** Each file contains a single, valid JSON object, including line delimiters. Some systems are not optimized to use small files, and in any case, you may wish to perform a number of transformations and checks of the raw data. Ingestion processing
 
-
-* **Detect exact matches.** There are some true duplicates in the data set. Try detecting them as first step.
+* **Detect exact matches.** The data set contains some true duplicates, where every data element matches except for the id. Try detecting them as first step.
 
 * **what else? **
 
