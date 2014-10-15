@@ -14,22 +14,27 @@ The basic format of the files is as follows. All data are serialized in JSON for
 	* **Global ID. ('gid')** Represents the ID this Person node. Consists of three parts: `person id:source id:tree id`. (Source 1033 represents member-supplied data.)
 
 	* **Names.** The names that represent the person -- can be multiple. (Note: surnames have been hashed for this contest -- see **Anonymization** below).
-		* ‘g’ – given
-		* ‘s’ – surname
+		* ‘given’
+		* ‘surname’
 
-	* **Gender.**
-		* ‘g’ – "m" = male, "f" = female
+	* **Genders.**
+		* ‘gender’ – "m" = male, "f" = female
 
 	* **Events.** Dates and places related to important life events
-		* ‘t’ – type : birth, marriage, death … (Dates and places. Note: normalized places are available in the data -- see **Place Name Normalization** below.)
+		* ‘type’ - event type : birth, marriage, death … 
+		* ‘q’ - calculated quality of the event
+		* ‘place’ - un-normalzied place text string
+		* ‘normalizedPlace’ - (-- see **Place Name Normalization** below.)
+		* ‘Date’ - normalized date.  YYYY-MM-DD, note that is is valid to have only a year, only a year and month, or year month and day
 
 	* **Family.** Information about relatives
-		* ‘t’ – type (“F” = father, “M” = mother, “C” = child, “H” = husband, “W” = wife
-		* ‘tgid’ – id of the related person in the same tree
-		* 'mp' - Media attached (irrelevant)
-		* 'ep' - Evidence attached = id’s of records attached to person
- 
-* **Tree.** - metadata and other information about this tree.
+		* ‘type’ – father, mother, child, husband, wife
+		* ‘targetgid’ – gid of the related person in the same tree
+		* ‘pty’ - priority
+		* ‘mod’ - ignore
+	* **ep.** - Evidence attached = 'gid' contains Global ID’s of records attached to person
+		* ‘cgid’ - ignore
+		* ‘gid’ - gid of attached person or record.  User has attached another users tree if the 2nd part of the gid is 1030, if the 2nd part is other than 1030, the user attached a record (records could be census, immigration, birth, marriage, death ...).  The third part of the gid will only be populated if 1030 is the second part.
 
 
 ### Anonymization
@@ -47,9 +52,9 @@ containing standardized values for its city, county, state, and country:
 [...]
 	{
 	"id": "41000997445",
-	"t": "Death",
+	"type": "Death",
 	"q": 367,
-	"p": "Hartford, Hartford, Connecticut, USA",
+	"place": "Hartford, Hartford, Connecticut, USA",
 	"normalizedPlace": [{
 		"value": "999",  # city value for Hartford
 		"type": "gp",
@@ -74,7 +79,7 @@ containing standardized values for its city, county, state, and country:
 		"sequence": 3,
 		"level": "country"
 		}],
-	"date": "1887-01-15"
+	"Date": "1887-01-15"
 	}
 [...]
 ```
