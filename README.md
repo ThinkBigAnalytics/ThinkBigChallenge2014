@@ -1,5 +1,10 @@
 <img align="middle" src="http://c.mfcreative.com/mars/landing/lohp/2014/smp/us-lohp-simplehdr-logo.png" alt="Ancestry.com"/>
 <img align="right" src="http://thinkbig.teradata.com/wp-content/themes/thinkbig/images/header/Logo128.png" alt="Think Big"/>
+
+> 
+> Already finished? Then jump to [the submission page!](https://thinkbigchallenge.wufoo.com/forms/think-big-and-ancestrycom-challenge-2014)
+> 
+
 # Think Big Challenge 2014
 
 Think Big and Ancestry.com have partnered to present this Big Data challenge for Strata NY 2014. Whether you're a Data Scientist, Engineer, or Architect -- this is your chance to show off your Big Data skills with a very interesting data set from Ancestry.com. In addition to competing for prizes (like a $200 Apple Store gift card), winning entries will be featured on our web site and may be included in our webinar series.
@@ -42,7 +47,10 @@ Winners are selected for novelty of insight, creativity, and quality of visualiz
 
 ## How to Enter
 
-The contest submission form will go online on Thursday.
+The contest submission form is here: [https://thinkbigchallenge.wufoo.com/forms/think-big-and-ancestrycom-challenge-2014](https://thinkbigchallenge.wufoo.com/forms/think-big-and-ancestrycom-challenge-2014).
+
+The contest officially ends at Sunday (10/19) at 11:59pm EDT.  However, the form will continue to run through the following Friday.  We will do our best to review any late submissions.  The most important thing is have fun and do something amazing!
+
 
 * * *
 
