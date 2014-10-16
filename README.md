@@ -4,13 +4,6 @@
 
 Think Big and Ancestry.com have partnered to present this Big Data challenge for Strata NY 2014.
 
-*contest one-liner here*
-
-*need Ancestry.com intro text here*
-
-*think big intro here*
-
-
 ## Introduction
 
 This contest is based on a rich genealogy data set from Ancestry.com where each member can create and maintain an individual family tree. Since members may share common ancestors, there will inevitably be some overlap between trees. Identifying, matching, and de-duplicating these overlaps, at scale, is a significant challenge.
