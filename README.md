@@ -11,8 +11,9 @@ This contest is based on a rich genealogy data set from Ancestry.com where each 
 
 ### About the data
 
-The contest data set consists of over two million JSON-encoded family tree records in a 3GB (uncompressed) file. Documentation of the record format and a small extract may be found in the `data` directory in the [github repo](https://github.com/ThinkBigAnalytics/ThinkBigChallenge2014/tree/master/data/]). The full data set is available for download from Amazon S3 at [https://s3.amazonaws.com/think.big.challenge/AncestryData.gz](https://s3.amazonaws.com/think.big.challenge/AncestryData.gz) as a 337MB gzip file. Some preprocessing has been performed on the data, such as standardizing place names and obscuring family names to protect member privacy, and is described in the documentation.
+The contest data set consists of over JSON-encoded family tree records in a flat file. Some preprocessing has been performed on the data, such as standardizing place names and obscuring family names to protect member privacy, and is described in the documentation.
 
+Documentation of the record format, a small extract, and links to downloads may be found in the `data` directory in the [github repo](https://github.com/ThinkBigAnalytics/ThinkBigChallenge2014/tree/master/data]).
 
 ## The Challenge
 
@@ -24,9 +25,9 @@ Multiple prizes will be awarded, and we welcome multiple submissions for any or 
 
 ### Data Engineering Challenges
 
-* **Detect exact matches.** The data set contains some true duplicates, where every data element matches except for the id. Try detecting these duplicates as first step. The judges will be interested in your selection of tools and your presentation of your rationale.
+**Detect Exact Matches.** The data set contains some true duplicates, where every data element matches except for the id. Try detecting these duplicates as first step. The judges will be interested in your selection of tools and your presentation of your rationale.
 
-* **Create trees from provided matches.** Construct family trees starting with the earliest ancestors identifiable by the matching gids already present in the data. 
+**Create Trees from Provided Matches.** Construct family trees starting with the earliest ancestors identifiable by the matching gids already present in the data. 
 
 
 ### Data Science Challenges

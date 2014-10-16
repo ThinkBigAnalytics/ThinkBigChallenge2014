@@ -4,7 +4,10 @@
 
 ## Notes about the data
 
-This subdirectory contains a small extract of the data set (1,000 records). The full data set is available for download from Amazon S3 at [https://s3.amazonaws.com/think.big.challenge/AncestryData.gz](https://s3.amazonaws.com/think.big.challenge/AncestryData.gz) as a 337MB gzip file.
+This subdirectory contains a small extract of the data set (1,000 records). There are two data sets provided:
+* A complete set of records from after the year 1820 is available for download from Amazon S3 at
+The full data set is available for download from Amazon S3 at [https://s3.amazonaws.com/think.big.challenge/AncestryPost1820Data.gz](https://s3.amazonaws.com/think.big.challenge/AncestryPost1820Data.gz) as a 127MB gzip file.
+* A sample of records pre-1820 for use in the data science "Learning of Common Ancestors" challenge.  This can be downloaded at [https://s3.amazonaws.com/think.big.challenge/AncestryPre1820Sample.gz](https://s3.amazonaws.com/think.big.challenge/AncestryPre1820Sample.gz) as a 4MB gzip file.
 
 ### Record format
 
