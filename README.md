@@ -13,7 +13,7 @@ This contest is based on a rich genealogy data set from Ancestry.com where each 
 
 The contest data set consists of over JSON-encoded family tree records in a flat file. Some preprocessing has been performed on the data, such as standardizing place names and obscuring family names to protect member privacy, and is described in the documentation.
 
-Documentation of the record format, a small extract, and links to downloads may be found in the `data` directory in the [github repo](https://github.com/ThinkBigAnalytics/ThinkBigChallenge2014/tree/master/data]).
+Documentation of the record format, a small extract, and links to downloads may be found in the `data` directory in the [github repo](https://github.com/ThinkBigAnalytics/ThinkBigChallenge2014/tree/master/data).
 
 ## The Challenge
 
