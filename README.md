@@ -21,61 +21,33 @@ This contest is based on a rich genealogy data set from Ancestry.com where each 
 The contest data set consists of over two million JSON-encoded family tree records in a 3GB (uncompressed) file. Documentation of the record format and a small extract may be found in the `data` directory in the [github repo](https://github.com/ThinkBigAnalytics/ThinkBigChallenge2014/tree/master/data/]). The full data set is available for download from Amazon S3 at [https://s3.amazonaws.com/think.big.challenge/AncestryData.gz](https://s3.amazonaws.com/think.big.challenge/AncestryData.gz) as a 337MB gzip file. Some preprocessing has been performed on the data, such as standardizing place names and obscuring family names to protect member privacy, and is described in the documentation.
 
 
-### Exploring the data
-
-
-
 ## The Challenge
 
 Implementing (or even designing) a complete solution to match and de-duplicate these trees is well beyond the scope of any single contest lasting for just a few days (or weeks!). However, as with any "big" problem, you can make progress on a number of interesting pieces along the way. The judges are interested in your approach--including which aspects you choose to tackle.
 
 We have no expectations or requirements to use specific platforms, programs, languages, packages, etc. **Impress us.**
 
-Multiple prizes will be awarded, and we welcome submissions regardless of area or focus. Here are some suggestions to help you get started:
+Multiple prizes will be awarded, and we welcome multiple submissions for any or all of the following challenges:
 
 ### Data Engineering Challenges
 
-* **Ingestion Processing.** Each file contains a single, valid JSON object, including line delimiters. Some systems are not optimized to use small files, and in any case, you may wish to perform a number of transformations and checks of the raw data. Ingestion processing
+* **Detect exact matches.** The data set contains some true duplicates, where every data element matches except for the id. Try detecting these duplicates as first step. The judges will be interested in your selection of tools and your presentation of your rationale.
 
-* **Detect exact matches.** The data set contains some true duplicates, where every data element matches except for the id. Try detecting them as first step.
+* **Create trees from provided matches.** Construct family trees starting with the earliest ancestors identifiable by the matching gids already present in the data. 
+
 
 ### Data Science Challenges
 
-* **Unsupervised Learning**
+**(Un/Semi)Supervised Learning of Common Ancestors.**  You have two datasets: a large file (AncestryData.gz) containing records for persons born after 1920; a small sample file of persons born before 1920.  Use this to build a system that identifies family tree branches whose earliest ancestors in AncestyData have common parents (pre-1920).  This should be done for the immediate parent of the branch root, not any earlier ancestors.
+Winners are selected for having the most accurate solution.
 
-Goal: Get candidates who can work with messy data and take risks to find patterns even when the situation doesn't provide testing or labeled data.  Additionally, solve a smaller, related problem to the one we're doing an SOW for.
+**Visualizing Naming Norms.**  Identify trends and patterns in how children are named across regions, families, or other strata; create a visualization to share this insight.  Data sampling is encouraged for contestants who cannot work with the full dataset.
+Winners are selected for novelty of insight, creativity, and quality of visualization.
 
-Description: Ancestry.com has [blah blah how many families, blah blah data].  By joining these family trees, Ancestry creates a unified picture of how families relate to one another, and create a connected world [or some better pitch on why this is cool.].  Your challenge is to find common family trees!  We have removed all entries from prior to 1950- can you find which family branches have overlap in first generation of missing data?
-
-2. Visualization Challenge
-Goal: Get candidates who can do exploration and analytics communication. Additionally, generate collateral (i.e. the visualizations) that can be used to retell this story on website or elsewhere.
-Description: 
-
-*Insert visualization Dan creates as sample*
-*Insert factoid about how many male and female names tracked in the US*  These names vary in spelling and their usage across families, regions, and time periods. *Factoid about most popular names varying by generation.*
-In this challenge, contestents will have access to the Ancestry dataset to identify trends and patterns in naming; and share these insights through a visualization.  Winners will be judged on novelty of insight, creativity, and quality of visualization.  All entries will have an option to share their entry publically on the contestant site.
-
-
-* **Family names **
-
-Look for naming patterns across
-
-* **Visualization.** Best way to represent naming patterns across family trees.
-(color for repetition or # of spelling variations)
-
-
-## Evaluation criteria
-
-Entries will be judged by a panel of experts.
-
-* Approach.
-* Tool selection.
-* Reasoning.
-* Presentation.
 
 ## How to Enter
 
-...
+The contest submission form will go online on Thursday.
 
 * * *
 
