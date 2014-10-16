@@ -32,7 +32,7 @@ Multiple prizes will be awarded, and we welcome multiple submissions for any or 
 
 ### Data Science Challenges
 
-**(Un/Semi)Supervised Learning of Common Ancestors.**  You have two datasets: a large file (AncestryData.gz) containing records for persons born after 1920; a small sample file of persons born before 1920.  Use this to build a system that identifies family tree branches whose earliest ancestors in AncestyData have common parents (pre-1920).  This should be done for the immediate parent of the branch root, not any earlier ancestors.
+**(Un/Semi)Supervised Learning of Common Ancestors.**  You have two datasets: a large file (AncestryPost1820Data.gz) containing records for persons born after 1820; a small sample file of persons born before 1820.  Use this to build a system that identifies family tree branches whose earliest ancestors in AncestryPost1820Data have common parents (pre-1920).  This should be done for the immediate parent of the branch root, not any earlier ancestors.
 Winners are selected for having the most accurate solution.
 
 **Visualizing Naming Norms.**  Identify trends and patterns in how children are named across regions, families, or other strata; create a visualization to share this insight.  Data sampling is encouraged for contestants who cannot work with the full dataset.
