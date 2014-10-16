@@ -1,4 +1,4 @@
-<img align="right" src="http://c.mfcreative.com/mars/landing/lohp/2014/smp/us-lohp-simplehdr-logo.png" alt="Ancestry.com"/>
+<img align="middle" src="http://c.mfcreative.com/mars/landing/lohp/2014/smp/us-lohp-simplehdr-logo.png" alt="Ancestry.com"/>
 <br/>
 <img align="right" src="http://thinkbig.teradata.com/wp-content/themes/thinkbig/images/header/Logo128.png" alt="Think Big"/>
 # Think Big Challenge 2014
@@ -14,29 +14,57 @@ Think Big and Ancestry.com have partnered to present this Big Data challenge for
 
 ## Introduction
 
-The data for this challenge is drawn from genealogy data entered by Ancestry.com members, which also incorporates publicly available data such as census records. Each Ancestry.com member creates and maintains an individual tree which may include any number of persons. Since members may share common ancestors, there will inevitably be some overlap between other users' trees. Identifying, matching, and de-duplicating these overlaps, at scale, is at the heart of this challenge.
+This contest is based on a rich genealogy data set from Ancestry.com where each member can create and maintain an individual family tree. Since members may share common ancestors, there will inevitably be some overlap between trees. Identifying, matching, and de-duplicating these overlaps, at scale, is a significant challenge.
 
 
-## The challenge
+### Getting the data
 
-Implementing (or even designing) a complete solution to match and de-duplicate these trees is well beyond the scope of any single contest lasting for just a few days (or weeks!). However, as with any "big" problem, you can make progress on a number of interesting steps along the way. The judges are interested in your approach--including which aspects you choose to tackle.
+The contest data set consists of over two million JSON-encoded family tree records in a 3GB file (uncompressed). Documentation of the record format and a small extract may be found in the `data` directory in the [github repo](https://github.com/ThinkBigAnalytics/ThinkBigChallenge2014/tree/master/data/]). Some preprocessing has been performed on the data, such as standardizing place names and obscuring family names to protect member privacy, and is described in the documentation.
 
-Multiple prizes will be awarded, and we welcome submissions regardless of focus: Engineering, Data Science, Architecture, etc. As with any real world problem, each discipline is important and of interest to us. Engineers may Architects, for example, may choose to focus on technology selection and solution design whereas Data Scientists may dive into 
 
-We have no expectations or requirements to use specific platforms, languages, packages, etc. Impress us.
 
-Here are some suggestions to help you get started:
+### Exploring the data
+
+
+
+## The Challenge
+
+Implementing (or even designing) a complete solution to match and de-duplicate these trees is well beyond the scope of any single contest lasting for just a few days (or weeks!). However, as with any "big" problem, you can make progress on a number of interesting pieces along the way. The judges are interested in your approach--including which aspects you choose to tackle.
+
+We have no expectations or requirements to use specific platforms, programs, languages, packages, etc. **Impress us.**
+
+Multiple prizes will be awarded, and we welcome submissions regardless of area or focus. Here are some suggestions to help you get started:
+
+### Data Engineering Challenges
 
 * **Ingestion Processing.** Each file contains a single, valid JSON object, including line delimiters. Some systems are not optimized to use small files, and in any case, you may wish to perform a number of transformations and checks of the raw data. Ingestion processing
 
 * **Detect exact matches.** The data set contains some true duplicates, where every data element matches except for the id. Try detecting them as first step.
 
-* **what else? **
+### Data Science Challenges
+
+<!--
+* **Unsupervised Learning**
+
+Goal: Get candidates who can work with messy data and take risks to find patterns even when the situation doesn't provide testing or labeled data.  Additionally, solve a smaller, related problem to the one we're doing an SOW for.
+
+Description: Ancestry.com has [blah blah how many families, blah blah data].  By joining these family trees, Ancestry creates a unified picture of how families relate to one another, and create a connected world [or some better pitch on why this is cool.].  Your challenge is to find common family trees!  We have removed all entries from prior to 1950- can you find which family branches have overlap in first generation of missing data?
+-->
+
+2. Visualization Challenge
+Goal: Get candidates who can do exploration and analytics communication. Additionally, generate collateral (i.e. the visualizations) that can be used to retell this story on website or elsewhere.
+Description: 
+[Insert visualization Dan creates as sample]
+[Insert factoid about how many male and female names tracked in the US]  These names vary in spelling and their usage across families, regions, and time periods. [Factoid about most popular names varying by generation.]
+In this challenge, contestents will have access to the Ancestry ___ dataset to identify trends and patterns in naming; and share these insights through a visualization.  Winners will be judged on novelty of insight, creativity, and quality of visualization.  All entries will have an option to share their entry publically on the contestant site.
 
 
-## The data
+* **Family names **
 
-The data set and related documentation can be found in the `data` directory in the [github repo](https://github.com/ThinkBigAnalytics/ThinkBigChallenge2014/tree/master/data/]).
+Look for naming patterns across
+
+* **Visualization.** Best way to represent naming patterns across family trees.
+(color for repetition or # of spelling variations)
 
 
 ## Evaluation criteria
@@ -47,6 +75,10 @@ Entries will be judged by a panel of experts.
 * Tool selection.
 * Reasoning.
 * Presentation.
+
+## How to Enter
+
+...
 
 * * *
 
