@@ -1,11 +1,14 @@
-<img align="right" src="http://c.mfcreative.com/mars/landing/lohp/2014/smp/us-lohp-simplehdr-logo.png" alt="Ancestry.com"/>
-<br/>
+<img align="middle" src="http://c.mfcreative.com/mars/landing/lohp/2014/smp/us-lohp-simplehdr-logo.png" alt="Ancestry.com"/>
 <img align="right" src="http://thinkbig.teradata.com/wp-content/themes/thinkbig/images/header/Logo128.png" alt="Think Big"/>
 # Think Big Challenge 2014
 
 ## Notes about the data
 
-The basic format of the files is as follows. All data are serialized in JSON format:
+This subdirectory contains a small extract of the data set (1,000 records). The full data set is available for download from Amazon S3 at [https://s3.amazonaws.com/think.big.challenge/AncestryData.gz](https://s3.amazonaws.com/think.big.challenge/AncestryData.gz) as a 337MB gzip file.
+
+### Record format
+
+The basic record format is as follows. All data are serialized in JSON format:
 
 * **Version. ('v')** The version of the file format. (Can be ignored.)
 
@@ -39,7 +42,7 @@ The basic format of the files is as follows. All data are serialized in JSON for
 
 ### Anonymization
 
-The contest data set includes both publicly availably records (e.g., census data) and user-contributed submissions on Ancestry.com. To preserve user privacy, all family names present in the data have been obscured with a hash function. The hash is constructed such that all occurrences of the same string will result in the same hash code.
+The contest data set includes both publicly availably records (e.g., census data) and user-contributed submissions on Ancestry.com. To preserve user privacy, all surnames present in the data have been obscured with a hash function. The hash is constructed such that all occurrences of the same string will result in the same hash code.
 
 ### Place name normalization
 
