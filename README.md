@@ -1,6 +1,7 @@
 <img align="middle" src="http://c.mfcreative.com/mars/landing/lohp/2014/smp/us-lohp-simplehdr-logo.png" alt="Ancestry.com"/>
 <img align="right" src="http://thinkbig.teradata.com/wp-content/themes/thinkbig/images/header/Logo128.png" alt="Think Big"/>
 
+
 > 
 > Already finished? Then jump to [the submission page!](https://thinkbigchallenge.wufoo.com/forms/think-big-and-ancestrycom-challenge-2014)
 > 
