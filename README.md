@@ -2,12 +2,11 @@
 <img align="right" src="http://thinkbig.teradata.com/wp-content/themes/thinkbig/images/header/Logo128.png" alt="Think Big"/>
 # Think Big Challenge 2014
 
-Think Big and Ancestry.com have partnered to present this Big Data challenge for Strata NY 2014.
+Think Big and Ancestry.com have partnered to present this Big Data challenge for Strata NY 2014. Whether you're a Data Scientist, Engineer, or Architect -- this is your chance to show off your Big Data skills with a very interesting data set from Ancestry.com. In addition to competing for prizes (like a $200 Apple Store gift card), winning entries will be featured on our web site and may be included in our webinar series.
 
 ## Introduction
 
 This contest is based on a rich genealogy data set from Ancestry.com where each member can create and maintain an individual family tree. Since members may share common ancestors, there will inevitably be some overlap between trees. Identifying, matching, and de-duplicating these overlaps, at scale, is a significant challenge.
-
 
 ### About the data
 
