@@ -52,6 +52,8 @@ The contest submission form is here: [https://thinkbigchallenge.wufoo.com/forms/
 
 The contest officially ends at Sunday (10/19) at 11:59pm EDT.  However, the form will continue to run through the following Friday.  We will do our best to review any late submissions.  The most important thing is have fun and do something amazing!
 
+NOTE: The submission page will only accept files up to 10MB in size.  Please don't attempt to submit all your data.  Code, an explanation of how to run, and sample results is plenty!
+
 
 * * *
 
